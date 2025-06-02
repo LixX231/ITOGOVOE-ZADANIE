@@ -282,6 +282,37 @@ body {
     position: relative; 
 }
 
+.about-img{
+    width: 269.6px; 
+    height: 494.81px; 
+    margin-top: 50px;
+}
+.about-img-2{
+    width: 269.6px;
+    height: 494.81px;
+    margin-top: 150px;
+}
+
+.position-absolute{
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    background: #e9f5f8;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.position-absolute-2{
+    top: 150px;
+    right: 100px;
+    width: 80px;
+    height: 80px;
+    background: #d9e6f2;
+    border-radius: 50%;
+    z-index: -1;
+}
+
 .services .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
